@@ -7,14 +7,16 @@ import com.baomidou.mybatisplus.core.toolkit.Constants;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.dsdaaa.ecjtuoj.model.entity.Post;
 import com.dsdaaa.ecjtuoj.model.entity.PostFavour;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
  * 帖子收藏数据库操作
  *
  * @author dsdaaa
- * 
+ *
  */
+@Mapper
 public interface PostFavourMapper extends BaseMapper<PostFavour> {
 
     /**

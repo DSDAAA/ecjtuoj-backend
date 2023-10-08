@@ -3,6 +3,7 @@ package com.dsdaaa.ecjtuoj.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.dsdaaa.ecjtuoj.model.entity.QuestionSubmit;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
 * @author 13180
@@ -10,6 +11,7 @@ import com.dsdaaa.ecjtuoj.model.entity.QuestionSubmit;
 * @createDate 2023-09-19 20:00:30
 * @Entity generator.domain.QuestionThumb
 */
+@Mapper
 public interface QuestionSubmitMapper extends BaseMapper<QuestionSubmit> {
 
 }
